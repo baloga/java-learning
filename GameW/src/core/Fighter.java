@@ -17,7 +17,7 @@ public class Fighter extends NPC {
 		super.setMp(50);
 		super.setCharacter("bojovnik");
 	}
-
+s
 	@Override
 	public void Attack(NPC npc) {
 		int attack = attack_power*this.getLvl();
